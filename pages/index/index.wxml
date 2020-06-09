@@ -1,0 +1,10 @@
+<!--pages/index/index.wxml-->
+<view class='page_wellcome'>
+  <view class='title'>登录</view>
+  <view  class='logo' >
+  判断没有token，自动转跳微信登录页面，此处应有点击登录操作，应用于需要登录的小程序
+  </view>
+</view>
+<view class='bnt_box'>
+<view bindtap='go_wx_login' class='bnt'>微信登录</view>
+</view>

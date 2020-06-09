@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/wellcome",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/login/forget",
+    "pages/register/register"
+  ],
+  "usingComponents": {
+    "roc-cont": "/components/roc-cont/roc-cont"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#79d397",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "大头音乐",
+    "backgroundColor": "#79d397",
+    "backgroundTextStyle": "light"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

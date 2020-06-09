@@ -1,0 +1,19 @@
+<view class="swiper-container">
+  demo
+</view>
+<!--
+<view class="item-container">
+  <view class='item'>
+    <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">一键获取手机号 </button>
+  </view>
+  <view class='item'>
+    <button bindtap="login">手机验证码登录demo </button>
+  </view>
+  <view class='item'>
+    <button bindtap="login_direct">直接微信登录demo </button>
+  </view>
+  <view class='item'>
+    <button bindtap="pay">支付demo </button>
+  </view>
+</view>
+-->

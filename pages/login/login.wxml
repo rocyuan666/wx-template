@@ -1,0 +1,23 @@
+<!--pages/login/login.wxml-->
+<view class='top_box'>
+ <view class='title'>账号登录</view>
+</view>
+
+<view class="container">
+  <form class="loginBox" bindsubmit="formSubmit">
+    <view class="loginItem">
+      <view class="label">账户 </view>
+      <view class="inputCon">
+        <input type="text"  placeholder-class='pla' name="name" maxlength='11'></input>
+      </view>
+    </view>
+    <view class="loginItem">
+      <view class="label">密码 </view>
+      <view class="inputCon">
+        <input type="password" placeholder-class='pla' name="password"></input>
+      </view>
+    </view>
+    <button class="loginBtn" form-type="submit">登录</button>
+    <view class="bnt_forget"  bindtap='forget_password'>忘记密码</view>
+  </form>
+</view>
